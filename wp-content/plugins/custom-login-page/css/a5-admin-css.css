@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.tabcontent { 
+	height: auto;
+	border: none;
+	margin: 0;
+	padding: 0;
+	display:none;
+	width: auto;
+}
+.a5-option-container { 
+	width: auto 100%;
+	border: solid 3px #7b4bbe;
+	background-color: #85bad6;
+	margin: 0 auto 7px auto;
+	padding: 0;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;	
+}
+.a5-option-container h3.infohighlight-header {
+	color: #06689d;
+	margin: 30px 0 10px 0;
+	font-family:georgia;
+	font-weight:normal;
+	font-size: 20px;
+} 
+.a5-option-container-left { 
+	display: block;
+	float: left;
+	text-align: right;
+	width: 35%;
+	border-right: solid 1px #7b4bbe;
+	margin: 0;
+	padding: 10px;
+} 
+.a5-option-container-right { 
+	display: block;
+	float: right;
+	width: 58%;
+	margin: 0;
+	padding: 10px;
+} 
+.a5-option-container-full { 
+	width: auto;
+	margin: 0;
+	padding: 10px; 
+} 
+.a5-option-container h2 { 
+	font-size: 1.5em;
+	color: #06689d;
+	margin:0;
+	padding: 3px 0;
+	border: none;
+	text-shadow: none;
+} 
+.a5-option-container input, select, textarea { 
+	background: #d7d7ed;
+}
+.a5-option-container label {
+	font-size: 16px;
+	font-weight: bold;
+	color: #06689d;
+	display: block;
+	margin-bottom: 5px;
+}
+.a5-option-container-left label {
+	margin-bottom: 0;
+}
+.a5-option-container input, 
+.a5-option-container-left textarea, 
+.a5-option-container-left select { 
+	margin: 7px 0 4px 7px;
+}
+.a5-option-container-left textarea {
+	height: 1em;
+	width: 90%;
+}
+ul#a5-optiontabs,
+ul#a5-pagetabs {
+	text-align: left;
+	list-style-type: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	-moz-padding-start: 0;
+} 
+ul#a5-optiontabs li,
+ul#a5-pagetabs li {
+	width: 190px;
+	list-style-type: none;
+	margin-bottom: 0; 
+} 
+ul#a5-optiontabs li a:link, 
+ul#a5-optiontabs li a:visited, 
+ul#a5-optiontabs li a:active,
+ul#a5-pagetabs li a:link, 
+ul#a5-pagetabs li a:visited, 
+ul#a5-pagetabs li a:active {
+	display: -moz-inline-box;
+	display: inline-block;
+	white-space: nowrap;
+	outline: 0; 
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	padding: 2px 6px;
+	margin-right: 0px; 
+	margin-bottom: 3px;
+	border: 2px solid #7b4bbe;
+	font-size: 0.9em;
+	color: #06689d;
+	background-color: #85bad6; 
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 170px;
+} 
+ul#a5-optiontabs li a:hover,
+ul#a5-pagetabs li a:hover {
+	border: 2px solid #7b4bbe;
+	background-color: #ffffff;
+	color: #06689d;
+} 
+ul#a5-optiontabs li a.selected,
+ul#a5-pagetabs li a.selected {
+	border: 2px solid #1c1163;
+	background-color: #5d00ff;
+	color: #ffffff !important;
+	outline: 0;
+}
+table.a5-optiontable-layout {
+	border-collapse: collapse;
+	background-color: #d7d7ed;
+}
+table.a5-optiontable-layout th, 
+table.a5-optiontable-layout td {
+	border: 1px #06689d solid; 
+	text-align: center;
+	font-size: 0.7 em;
+	height: 20px;
+
+}
+table.a5-optiontable {
+	text-align: left;
+	vertical-align: top;
+	white-space: wrap;
+	background-color: #d7d7ed;
+	border-collapse: collapse; 
+	border: solid 1px #06689d;	
+} 
+table.a5-optiontable input {
+	margin: 0 2px 0 2px;
+	padding: 2px;
+} 
+table.a5-optiontable input.color {
+	text-align: right;
+} 
+table.a5-optiontable thead tr td {
+	line-height: 11px; 
+}  
+table.a5-optiontable td {
+	vertical-align: middle;
+	padding: 1px 3px;
+} 
+table.a5-optiontable thead td {
+	text-align: left;
+	background-color: #d7d7ed;
+	font-weight: bold;
+	padding: 5px; 
+} 
+h4 {
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	margin-bottom: 5px;
+} 
+code {
+	background: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+} 
+i {
+	color: #da0033;
+	font-style: normal;
+	font-weight: bold;
+}
+p.error {
+	color: #da0033;
+	font-style: normal;
+	font-weight: bold;
+}
+p.save {
+	color: #508a0e;
+	font-style: normal;
+	font-weight: bold;
+} 
+input.save-tab { 
+	display: block; 
+	margin: 15px auto 4px auto;
+	background:#9adc8d;
+	color:#243e1f;
+	width: 200px;
+	height: 30px;
+	font-weight:bold;
+	font-size:1.3em;
+	border:solid 2px;
+}
+input.reset-tab { 
+	display: block; 
+	margin: 25px auto 2px auto;
+	border: 0 !important;
+	padding: 0 !important;
+	width: 250px; 
+	height: 68px;
+} 
+p.submit { 
+	text-align: center; 
+} 
+.mr-hyde {
+	visibility: hidden;
+}
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}				
+.clearfix {
+	min-width: 0;		/* trigger hclpLayout for IE7 */
+	display: inline-block;
+	/* \*/ display: block;	/* Hide from IE Mac */
+}				
+* html .clearfix {
+	/* \*/ height: 1%;	/* Hide from IE Mac */ 
+}
